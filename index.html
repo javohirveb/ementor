@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,10 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Ementor +</title>
 </head>
 
-<body class="font-['Raleway'] transition-all">
+<body class="font-['Raleway'] transition-all bg-[#fdfdfd]">
 
     <main>
 
@@ -31,7 +31,7 @@
                 <a class="duration-500 hover:text-[#fa9f42] font-medium text-[#FDFDFD]" href="#">Контакты</a>
             </nav>
             <div class="max-w-6xl mx-auto px-8 relative">
-                <ul class="mt-12 flex flex-col gap-y-8 ">
+                <ul class="mt-12 flex sm:flex-col flex-row sm:gap-y-8 gap-x-16 justify-center">
                     <li>
                         <a href="https://www.facebook.com/profile.php?id=100080981365856" target="_blank">
                             <i class="scale-[2] duration-500 hover:text-[#fa9f42] text-[#FDFDFD] fa-brands fa-facebook"></i>
@@ -48,8 +48,8 @@
                         </a>
                     </li>
                 </ul>
-                <div class="max-w-2xl mx-auto text-center">
-                    <a class="inline-block" href="#">
+                <div class="max-w-2xl mx-auto text-center sm:mt-0 mt-16">
+                    <a class="inline-block" href="/">
                         <img class="duration-700 hover:scale-[1.02] hover:drop-shadow-[0px_3px_3px_rgba(20,20,20,0.49)]"
                             src="images/logotype.svg" alt="" width="170" height="22">
                     </a>
@@ -64,13 +64,85 @@
                         Все направления
                     </a>
                 </div>
-                <img class="hidden sm:inline-block absolute top-[300px] rounded-tr-[80px] z-[5]" src="images/1.jpg" alt="" width="240">
-                <img class="hidden sm:inline-block absolute top-[260px] left-[70px] z-[1]" src="images/1.svg" alt="">
-                <img class="hidden sm:inline-block absolute top-[50px] right-0 rounded-tl-[80px] z-[5]" src="images/2.jpg" alt="" width="240">
-                <img class="hidden sm:inline-block absolute top-[10px] right-[40px] z-[1]" src="images/2.svg" alt="">
-                <a class="absolute z-[100] text-white rotate-[270deg] text-base right-0" href="#"><i class="fa-solid fa-arrow-left"></i> Листайте вниз</a>
+                <img class="hidden sm:inline-block absolute top-[300px] rounded-tr-[80px] z-[5]" src="images/left.jpg" alt="" width="240">
+                <img class="hidden sm:inline-block absolute top-[260px] left-[70px] z-[1]" src="images/left.svg" alt="">
+                <img class="hidden sm:inline-block absolute top-[50px] right-0 rounded-tl-[80px] z-[5]" src="images/right.jpg" alt="" width="240">
+                <img class="hidden sm:inline-block absolute top-[10px] right-[40px] z-[1]" src="images/right.svg" alt="">
+                <a class="absolute duration-500 hover:text-[#fa9f42]  z-[100] text-white rotate-[270deg] text-base right-0" href="#numbers"><i class="fa-solid fa-arrow-left"></i> Листайте вниз</a>
             </div>
 
+        </section>
+
+        <section class="my-36 max-w-6xl mx-auto px-8" id="numbers">
+            <ul class="flex justify-between gap-8 sm:flex-row flex-col">
+                <li class="text-center">
+                    <h1 class="font-medium text-6xl text-[#10b582]">100+</h1>
+                    <p class="text-sm font-normal text-[#353A5A] mt-15"> 
+                        теоретических и практических курсов для разного уровня
+                    </p>
+                </li>
+                <li class="text-center">
+                    <h1 class="font-medium text-6xl text-[#10b582]">3000</h1>
+                    <p class="text-sm font-normal text-[#353A5A] mt-15"> 
+                        часов видео-лекций и вебинаров от лучших преподавателей
+                    </p>
+                </li>
+                <li class="text-center">
+                    <h1 class="font-medium text-6xl text-[#10b582]">15</h1>
+                    <p class="text-sm font-normal text-[#353A5A] mt-15"> 
+                        направлений обучения востребованным профессиям
+                    </p>
+                </li>
+                <li class="text-center">
+                    <h1 class="font-medium text-6xl text-[#10b582]">2000</h1>
+                    <p class="text-sm font-normal text-[#353A5A] mt-15"> 
+                        учеников уже занимаются на нашей платформе
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="my-36 max-w-6xl mx-auto px-8 flex gap-[100px] items-center sm:flex-row flex-col">
+            <div>
+                <h1 class="text-[#353A5A] text-5xl font-medium">Учитесь у лучших</h1>
+                <p class="text-[#353A5A] text-sm font-normal mt-6"> 
+                    Наши преподаватели – профессионалы, которые добились успеха в своей области. Лид-дизайнеры известных студий, маркетологи крупнейших компаний, редакторы популярных медиа: получайте опыт из первых рук, в любое время. Кураторы курсов – наши лучшие выпускники, будут помогать     и поддерживать вас на протяжении всего обучения. 
+                </p>
+                <a class="text-base mt-[50px] inline-block bg-[#10b582] py-[20px] px-[50px] duration-700 text-[#FDFDFD] hover:rounded-tr-[0px] hover:rounded-tl-[30px] rounded-tr-[30px] hover:rounded-bl-[0px] hover:rounded-br-[30px] rounded-bl-[30px]"
+                        href="#">
+                        Все направления
+                    </a>
+            </div>
+            <div>
+                <ul class="flex gap-8">
+                    <li class="text-center">
+                        <img class="rounded-bl-[80px]" src="images/1.jpg" alt="" width="970" height="970">
+                        <p class="font-normal text-sm mt-2">Катя, ведущий дизайнер TailGroup</p>
+                    </li>
+                    <li class="text-center">
+                        <img class="rounded-tl-[80px] rounded-br-[80px]" src="images/2.jpg" alt="" width="970" height="970">
+                        <p class="font-normal text-sm mt-2">Катя, ведущий дизайнер TailGroup</p>
+                    </li>
+                    <li class="text-center">
+                        <img class="rounded-br-[80px]" src="images/3.jpg" alt="" width="970" height="970">
+                        <p class="font-normal text-sm mt-2">Катя, ведущий дизайнер TailGroup</p>
+                    </li>
+                </ul>
+                <ul class="flex gap-8 mt-4">
+                    <li class="text-center">
+                        <img class="rounded-tl-[80px]" src="images/4.jpg" alt="" width="970" height="970">
+                        <p class="font-normal text-sm mt-2">Катя, ведущий дизайнер TailGroup</p>
+                    </li>
+                    <li class="text-center">
+                        <img class="rounded-tl-[80px] rounded-br-[80px]" src="images/5.jpg" alt="" width="970" height="970">
+                        <p class="font-normal text-sm mt-2">Катя, ведущий дизайнер TailGroup</p>
+                    </li>
+                    <li class="text-center">
+                        <img class="rounded-tr-[80px]" src="images/6.jpg" alt="" width="970" height="970">
+                        <p class="font-normal text-sm mt-2">Катя, ведущий дизайнер TailGroup</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>
